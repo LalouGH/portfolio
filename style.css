@@ -80,7 +80,7 @@ body {
     height: fit-content;
 
 }
-
+/* header de navigation*/
 .nav-bar {
     display: flex;
     justify-content: space-between;
