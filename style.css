@@ -15,7 +15,6 @@
     --radius: 50px;
     --black: #252525;
 
-
 }
 
 /* Largeur de la scrollbar */
@@ -278,7 +277,7 @@ main {
 }
 
 .creation-card-images {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .creation-card-images ul {
@@ -357,7 +356,7 @@ main {
 .coding-card-images {
     margin: 0;
     padding: 0;
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 
@@ -438,29 +437,100 @@ main {
     margin: 0;
 }
 
-.projects{
+/* chat gpt*/
+
+.projects {
     background-color: #252525;
     border-radius: var(--radius);
     display: flex;
-    margin-top: 200px;
+    margin-top: 100px;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 100vh;
-    flex-direction: row;
-}
-
-.projects-info{
+    height: 100%;
+  }
+  
+  .projects-content {
     padding: var(--box_padding);
     border-radius: var(--radius);
     display: flex;
     flex-direction: column;
-    width: 100%;
-}
-
-.projects-info h1{
+    height: fit-content;
+  }
+  
+  .projects-content h1 {
     font-family: opensauceone;
     font-size: 26px;
     color: white;
     text-align: center;
-}
+    margin: 0;
+  }
+
+  .project-list {
+    margin-top: 30px;   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: var(--radius);
+    overflow: hidden;
+    flex: 1 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    height: 300px;
+  }
+
+  .project-card-content{
+    width: fit-content; 
+    padding: var(--box_padding);
+    font-family: Poppins;
+  }
+
+  .project-card-content h2{
+    font-family: OpenSauceOne;
+  }
+
+  .project-card-image{
+    width: 100%;
+    height: 80%;
+    background-image: url("src/projects-background/hombreloco_mockup.png");
+  }
+
+  .contact {
+    background-color: #252525;
+    padding: var(--box_padding);
+    border-radius: var(--radius);
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .contact-content {
+    background-color: green;
+    font-family: Poppins;
+    color: white;
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  
+  .contact h1 {
+    margin: 0   ;
+    font-family: opensauceone;
+    font-size: 26px;
+    color: white;
+  }
+
+  .contact-form{
+    width:50%;
+    height: 100%;
+    background-color: red;
+  }
