@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Nerko One';
+  src: url(polices/NerkoOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url(polices/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(polices/Lato-Regular.ttf);
+}
+html, body {
+  background-image: url(images/background.jpg);
+  background-size: 110%
+}
+
+header {
+  top: 0;
+  left: 0;
+  position:fixed; 
+  width: 100%;
+  background-color: #ffc404;
+  z-index: 1 ;
+  border-bottom: 6px solid rgb(196, 23, 24);
+}
+
+#logo_foodtruck{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#menu{
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+#menu a {
+  font-family:'Nerko One', cursive;
+  font-size: x-large;
+  background-color: rgb(196, 23, 24);
+  color: white;
+  text-decoration: none;
+  border: 3px solid rgb(196, 23, 24);
+  border-radius: 8px;
+  margin-right:25px;
+  padding: 0px 50px 0px 50px;
+}
+
+header img{
+  padding: 20px;
+  height: 90px;
+}
+
+.titre{
+  text-align: center;
+  font-family:'Nerko One', cursive;
+  font-size: 42px;
+  background-color: #329E61;
+  border: 3px solid #329E61;
+  border-radius: 4px;
+  margin: 20px 500px 20px 500px;
+}
+
+button{
+  font-family:'Nerko One', cursive;
+  font-size: 28px;
+  background-color:rgb(196, 23, 24);
+  color: white;
+  text-decoration: none;
+  border: 3px solid rgb(196, 23, 24);
+  border-radius: 8px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+body {
+  margin-top: 150px;
+}
+
+#produit_1 {
+  display: flex;
+  background-color: #ffc404;
+  border-radius: 4px;
+  font-family: 'Lobster', cursive;
+  border: 10px solid #ffc404;
+  margin: 50px 20px 50px 20px;
+}
+
+#produit_1 img{
+  margin-right: 5px;
+}
+
+#contenu_plat1 {
+  border: 5px solid rgb(196, 23, 24);
+  border-radius: 4px;
+  padding: 10px;
+  margin-right:5px;
+  text-align: center;
+}
+
+#contenu_plat1 h1 {
+  margin-bottom: 0;
+}
+
+#produit_2 {
+  display: flex;
+  background-color: #ffc404;
+  border-radius: 4px;
+  font-family: 'Lobster', cursive;
+  border: 10px solid #ffc404;
+  margin: 50px 20px 50px 20px;
+}
+
+#contenu_plat2 {
+  border: 5px solid rgb(196, 23, 24);
+  border-radius: 4px;
+  padding: 10px;
+  margin-right:10px;
+  text-align: center;
+}
+
+#produit_2 img{
+  margin-right: 5px;
+}
+
+#contenu_plat2 h1 {
+  margin-bottom: 0;
+}
+
+#produit_3 {
+  display: flex;
+  background-color: #ffc404;
+  border-radius: 4px;
+  font-family: 'Lobster', cursive;
+  border: 10px solid #ffc404;
+  margin: 50px 20px 50px 20px;
+}
+
+#contenu_plat3 {
+  border: 5px solid rgb(196, 23, 24);
+  border-radius: 4px;
+  padding: 10px;
+  margin-right:10px;
+  text-align: center;
+}
+
+#produit_3 img{
+  margin-right: 5px;
+}
+
+#contenu_plat3 h1 {
+  margin-bottom: 0;
+}
+
+#produit_4 {
+  display: flex;
+  background-color: #ffc404;
+  border-radius: 4px;
+  font-family: 'Lobster', cursive;
+  border: 10px solid #ffc404;
+  margin: 50px 20px 50px 20px;
+}
+
+#produit_4 img{
+  margin-right: 5px;
+}
+
+#contenu_plat4 h1 {
+  margin-bottom: 0;
+}
+
+#contenu_plat4 {
+  border: 5px solid rgb(196, 23, 24);
+  border-radius: 4px;
+  padding: 10px;
+  margin-right:10px;
+  text-align: center;
+}
+
+footer{
+  background-color:#ffc404;
+  border-radius: 4px;
+  border: 3px solid #ffc404;
+  margin: 8px;
+}
+
+footer p {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer a {
+  font-family:'Nerko One', cursive;
+  font-size: 18px;
+  background-color: rgb(196, 23, 24);
+  color: white;
+  text-decoration: none;
+  border: 3px solid rgb(196, 23, 24);
+  border-radius: 8px;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+
+#mentions_legales {
+display: inline-block;
+}
+
+.portfoliolink {
+  border-radius: 10px;
+  margin: 20px 20px 0 0;
+  display: absolute;
+  float: right;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.portfoliolink a {
+  font-family: OpenSauceOne;
+  color: #252525;
+  text-decoration: none;
+}
+
+.portfoliolink:hover{
+  scale: 110%;
+}

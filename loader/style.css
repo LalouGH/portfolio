@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../polices/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSauceOne';
+    src: url(../polices/OpenSauceOne-Bold.ttf);
+}
+
+.loader-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader-content h1{
+    font-family: OpenSauceOne;
+}
+
+.loader-content h2{
+    font-family: Poppins;
+}
+
+.loader-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+}
+
+#logo{
+    height: 100px;
+}

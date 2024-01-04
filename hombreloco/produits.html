@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>El Hombre Loco - Nos Produits</title>
+    <link rel="stylesheet" href="style_nos_produits.css">
+</head>
+
+<body>
+    <header>
+        <div class="portfoliolink">
+            <a href="../index.html">Retour au portfolio</a>
+        </div>  
+        <nav>
+            <div id="logo_foodtruck">
+                <img src="images/logo.svg" alt="Logo El hombre loco">
+            </div>
+            <div id="menu">
+                <a href="index.html">ACCUEIL</a>
+                <a href="produits.html">PRODUITS</a>
+                <a href="a_propos_français.html">A PROPOS</a>
+                <a href="localisations.html">OU NOUS TROUVER?</a>
+            </div>
+        </nav>
+    </header>
+    <h1 class="titre">NOS PRODUITS A LA CARTE:</h1>
+    <section id="produit_1">
+        <img src="images/Plat1.jpg" alt="burrito boeuf chili">
+        <div id="contenu_plat1">
+            <h1>Burrito de bœuf au chili épicé</h1>
+            <p>Ma spécialité du moment!</p>
+            <button id="burrito">Afficher les ingrédients</button>
+        </div>
+        <div id="plat1"></div>
+    </section>
+    <section id="produit_2">
+        <img src="images/Plat2.jpg" alt="tacos poulet guacamole">
+        <div id="contenu_plat2">
+            <h1>Tacos mexicains au poulet épicé <br> avec guacamole</h1>
+            <p>Mon produit phare!</p>
+            <button id="tacos">Afficher les ingrédients</button>
+        </div>
+        <div id="plat2"></div>
+    </section>
+    <section id="produit_3">
+        <img src="images/Plat3.jpg" alt="quesadillas avocat haricot noir cheddar">
+        <div id="contenu_plat3">
+            <h1>Quesadillas à l'avocat et <br> aux haricots noirs avec cheddar</h1>
+            <p>Du fromage fondant et <br> de l'avocat hmmmm!</p>
+            <button id="quesadillas">Afficher les ingrédients</button>
+        </div>
+        <div id="plat3"></div>
+    </section>
+    <section id="produit_4">
+        <img src="images/Plat4.jpg" alt="tostadas poulet avocat citron vert">
+        <div id="contenu_plat4">
+            <h1>Tostadas au poulet à l'avocat <br> parfumé au citron vert</h1>
+            <p>Des légumes frais!</p>
+            <button id="tostadas">Afficher les ingrédients</button>
+        </div>
+        <div id="plat4"></div>
+    </section>
+
+    <script>
+        var bouton1 = document.getElementsByTagName("button")
+
+
+
+        function affichage_plat1() {
+            plat1.innerHTML = "<h1>Ingrédients :</h1><ul><li>Boeuf au chili (avec des épices : piments forts, paprika, ail, cumin, origan, clous de girofle)</li><li>Sauce au choix : Sauce Salsa Verde (moyennement épicé) ou Salsa Roja (très épicé)</li><li>Tortilla</li><li>Oignons et poivrons (ou haricots rouge/noir)</li></ul>";
+            plat1.style.padding = "5px"
+        }
+
+        function affichage_plat2() {
+            plat2.innerHTML = "<h1>5 tacos de petite taille composés de:</h1><ul><li>Poulet (avec épices : recette secréte)</li><li>Sauce au choix : Sauce Salsa Verde (moyennement épicé) ou Salsa Roja (très épicé)</li><li>Tortilla de maïs (texture de chips nachos)</li><li>Oignons et poivrons (ou haricots rouge/noir)</li></ul>";
+        }
+
+        function affichage_plat3() {
+            plat3.innerHTML = "<h1>4 quesadillas de petite taille composés de:</h1><ul><li>Avocats</li><li>Haricots noirs (également possible : haricots rouges ou oignons/poivrons)</li><li>Sauce au choix : Sauce Salsa Verde (moyennement épicé) ou Salsa Roja (très épicé)</li><li>Cheddar</li><li>Tortilla</li>"
+        }
+
+        function affichage_plat4() {
+            plat4.innerHTML = "<h1>2 tostadas de taille moyenne composés de:</h1><ul><li>Avocats en purée</li><li>Citron Vert</li><li>Chou rouge</li><li>Oignons et poivrons (ou haricots rouge/noir)</li><li>Sauce avocat</li><li>Tortilla</li></ul>"
+        }
+
+        burrito.addEventListener("click", affichage_plat1)
+        tacos.addEventListener("click", affichage_plat2)
+        quesadillas.addEventListener("click", affichage_plat3)
+        tostadas.addEventListener("click", affichage_plat4)
+    </script>
+    <footer>
+        <p>© Copyright - Réalisé par Lalou ADLAOUI - 2022 - Tous droits réservés</p>
+        <a href="mentions_legales.html" id="mentions_legales">Mentions Légales</a>
+        <a href="https://www.instagram.com/elhombreloco_mmi" target="_blank" id="instagram">Instagram</a>
+    </footer>
+</body>
+
+</html>
